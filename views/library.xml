@@ -7,11 +7,12 @@
 		<field name="arch" type="xml">
 			<form string="Books Form">
 				<sheet>
-					<group string="Book Information">
+					<group string="Book Tite">
 						<field name="name"/>
 						<field name="book_name"/>
+					</group>
+					<group string="Book Information">
 						<field name="year"/>
-						<!-- <field name="stock_of_books"/> -->
 						<field name="librarian_id"/>
 					</group>
 				</sheet>

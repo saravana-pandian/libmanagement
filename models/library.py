@@ -5,7 +5,6 @@ from odoo import models, fields, api, exceptions
 
 class Library(models.Model):
 	_name = 'library.books'
-
 	_description = 'Brussels Library'
 
 	name = fields.Char(string="ISBN", required=False)
